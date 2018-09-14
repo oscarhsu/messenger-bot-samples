@@ -104,7 +104,7 @@ To force push to Heroku, useful for moving your changes from your machine to Her
 3. Go back to your terminal and inside the repository set the `PAGE_ACCESS_TOKEN` config on Heroku.
 
 ```bash
-$ heroku config:set PAGE_ACCESS_TOKEN='your_page_access_token'
+$ heroku config:set PAGE_ACCESS_TOKEN=your_page_access_token
 ```
 
 #### 3. Now you should be able to go to your page and message your bot!
