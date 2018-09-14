@@ -57,10 +57,10 @@ $ cd /path/to/fb-chatbots
 $ heroku create
 
 # URL_TO_HEROKU_APP is the url given to you from the above command
-$ heroku config:set SERVER_URL='https://{URL_TO_HEROKU_APP}'
+$ heroku config:set SERVER_URL=https://{URL_TO_HEROKU_APP}
 
 # Note the token can be any word chosen by you and is used to by Facebook to check that they have the correct server for your Messenger Bot
-$ heroku config:set WEBHOOK_TOKEN='random_demo_token_123'
+$ heroku config:set WEBHOOK_TOKEN=random_demo_token_123
 
 # This pushes just the account-linking folder to Heroku
 $ git subtree push --prefix account-linking heroku master
